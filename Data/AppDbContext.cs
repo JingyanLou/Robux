@@ -6,6 +6,9 @@ public class AppDbContext : IdentityDbContext<ApplicationUser>
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
+        Database.EnsureDeleted();  // Add this line temporarily
+        Database.EnsureCreated();
+        
     }
 
     public DbSet<Learning> Learnings { get; set; }

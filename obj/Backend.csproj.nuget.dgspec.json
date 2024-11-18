@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/workfofo/Desktop/Backend/Backend/Backend.csproj": {}
+    "/Users/workfofo/RiderProjects/Robux/Backend.csproj": {}
   },
   "projects": {
-    "/Users/workfofo/Desktop/Backend/Backend/Backend.csproj": {
+    "/Users/workfofo/RiderProjects/Robux/Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/workfofo/Desktop/Backend/Backend/Backend.csproj",
+        "projectUniqueName": "/Users/workfofo/RiderProjects/Robux/Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "/Users/workfofo/Desktop/Backend/Backend/Backend.csproj",
+        "projectPath": "/Users/workfofo/RiderProjects/Robux/Backend.csproj",
         "packagesPath": "/Users/workfofo/.nuget/packages/",
-        "outputPath": "/Users/workfofo/Desktop/Backend/Backend/obj/",
+        "outputPath": "/Users/workfofo/RiderProjects/Robux/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/workfofo/.nuget/NuGet/NuGet.Config"

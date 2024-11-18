@@ -1,6 +1,9 @@
+using Backend.Models.DTOs.Auth;
+
 namespace Backend.Service.Interfaces;
 
-public class IAuthService
+public interface IAuthService
 {
-    
+    Task<bool> RegisterAsync(RegisterDto model);
+    Task<string> LoginAsync(LoginDto model);
 }

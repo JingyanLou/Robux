@@ -1,6 +1,8 @@
 namespace Backend.Service.Interfaces;
 
-public class IImageService
+public interface IImageService
 {
-    
+    Task<string> UploadImageAsync(IFormFile file);
+    Task DeleteImageAsync(string imageUrl);
+    bool IsValidImage(IFormFile file);
 }
